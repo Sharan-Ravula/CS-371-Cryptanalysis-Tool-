@@ -4,19 +4,19 @@ Solution Design and Implementation:
 
 	- Frequency Analysis Results:
 
-		- Single Letters: The frequency analysis revealed that the letter 'e' was the most common single letter in the 			reference text, followed by 't' and 'a'.
-     		- Bi-grams: Common bi-grams such as 'th', 'he', and 'in' were identified, providing insight into potential mappings 		for letter combinations.
-     		- Tri-grams: Tri-grams like 'the', 'and', and 'ing' were observed frequently, aiding in deciphering common words 		and patterns.
+		- Single Letters: The frequency analysis revealed that the letter 'e' was the most common single letter in the reference text, followed by 't' and 'a'.
+     		- Bi-grams: Common bi-grams such as 'th', 'he', and 'in' were identified, providing insight into potential mappings for letter combinations.
+     		- Tri-grams: Tri-grams like 'the', 'and', and 'ing' were observed frequently, aiding in deciphering common words and patterns.
    
 	- Letter Mapping:
 
-     		- Based on the frequency analysis results, initial mappings were assigned for common letters and letter 			combinations.
+     		- Based on the frequency analysis results, initial mappings were assigned for common letters and letter combinations.
      		- Iterative adjustments were made by comparing the decrypted text with known patterns and linguistic conventions.
      		- Ambiguous mappings were resolved by considering context and linguistic rules.
 
    	- Deciphered Plaintext:
 
-     		- The final deciphered plaintext revealed a coherent message consistent with the language and context of the 			encrypted text. The deciphered text appears to be a passage from the Book of Daniel in the Bible.
+     		- The final deciphered plaintext revealed a coherent message consistent with the language and context of the encrypted text. The deciphered text appears to be a passage from the Book of Daniel in the Bible.
 
 2. A brief description of how to compile/run your programs.
 
