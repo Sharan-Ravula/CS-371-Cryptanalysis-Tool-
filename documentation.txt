@@ -1,0 +1,223 @@
+1. A step-by-step description of how you designed and implemented your solution; this should include the frequency analysis results, one-on-one letter mapping, and the deciphered plaintext obtained by yourself.
+
+Solution Design and Implementation:
+
+	- Frequency Analysis Results:
+
+		- Single Letters: The frequency analysis revealed that the letter 'e' was the most common single letter in the 			reference text, followed by 't' and 'a'.
+     		- Bi-grams: Common bi-grams such as 'th', 'he', and 'in' were identified, providing insight into potential mappings 		for letter combinations.
+     		- Tri-grams: Tri-grams like 'the', 'and', and 'ing' were observed frequently, aiding in deciphering common words 		and patterns.
+   
+	- Letter Mapping:
+
+     		- Based on the frequency analysis results, initial mappings were assigned for common letters and letter 			combinations.
+     		- Iterative adjustments were made by comparing the decrypted text with known patterns and linguistic conventions.
+     		- Ambiguous mappings were resolved by considering context and linguistic rules.
+
+   	- Deciphered Plaintext:
+
+     		- The final deciphered plaintext revealed a coherent message consistent with the language and context of the 			encrypted text. The deciphered text appears to be a passage from the Book of Daniel in the Bible.
+
+2. A brief description of how to compile/run your programs.
+
+For My(Sharan Ravula) Python version: (all the files must be in the same path for the below commands to work, if they are in the different file path please address the file path before the filename.txt ex: python3 decipher.py ~/filepath/ciphertext.txt)
+
+		Compilation and Execution Instructions:
+		
+		   - To compile and run the 'decipher.py' program, use the command:
+     			
+			python3 decipher.py ciphertext.txt
+
+		   - For running the 'freqAnalyze.py' program to analyze letter frequencies, execute:
+   
+			python3 freqAnalyze.py merchantofvenice.txt
+			python3 freqAnalyze.py hamlet.txt
+			python3 freqAnalyze.py ciphertext.txt
+
+3. Any interesting observation and/or explanation of the results.
+
+Observations and Explanations:
+
+- The frequency analysis provided valuable insights into the structure and composition of the encrypted text, guiding the mapping process.
+- The iterative nature of the letter mapping phase allowed for refinement and improvement of the mappings over multiple iterations.
+- The final deciphered plaintext demonstrated the effectiveness of the cryptanalysis approach, showcasing the successful application of frequency analysis and linguistic knowledge.
+
+Below are the output for my (Sharan Ravula) python code:
+
+- decipher.py (output)
+
+sharanravula@Sharans-MacBook-Pro Cryptanalysis % python3 decipher.py ciphertext.txt
+Deciphered Text:
+ in the same hour came forth fingers of a man's hand, and wrote oder against the candlestick upon the plaster of the wall of the king's palace; and the king saw the part of the hand that wrote. then the king's countenance was changed, and his thoughts troubled him, so that the joints of his loins were loosed, and his knees smote one against another. the king cried aloud to bring in the astrologers, the chaldeans, and the soothsaeers. and the king spake, and said to the wise men of babelon, whosoeder shall read this writing, and show me the interpretation thereof, shall be clothed with scarlet, and hade a chain of gold about his neck, and shall be the third ruler in the kingdom. then came in all the king's wise men; but thee could not read the writing, nor make known to the king the interpretation thereof. then was king belshaooar greatle troubled, and his countenance was changed in him, and his lords were astonished. now the kueen, be reason of the words of the king and his lords, came into the bankuet house; and the kueen spake and said, o king, lide foreder; let not the thoughts trouble thee, nor let the countenance be changed; there is a man in the kingdom, in whom is the spirit of the hole gods; and in the daes of the wisdom of the gods, was found in him; whom the king nebuchadneooar the father, the king, i sae, the father, made master of the magicians, astrologers, chaldeans, and soothsaeers; forasmuch as an ezcellent spirit, and knowledge, and understanding, interpreting of dreams, and showing of hard sentences, and dissolding of doubts, were found in the same daniel, whom the king named belteshaooar; now let daniel be called, and he will show the interpretation.
+
+- freqAnalyze.py (output)
+
+	- merchantofvenice.txt
+
+sharanravula@Sharans-MacBook-Pro Cryptanalysis % python3 freqAnalyze.py merchantofvenice.txt
+Letters:
+e: 10786
+t: 8056
+o: 8046
+a: 7338
+i: 6388
+n: 6146
+s: 5972
+h: 5766
+r: 5406
+l: 3930
+d: 3405
+u: 2934
+m: 2561
+y: 2451
+w: 2177
+c: 2078
+f: 1980
+g: 1588
+b: 1541
+p: 1256
+v: 916
+k: 757
+j: 231
+z: 116
+x: 109
+q: 56
+
+Top 10 Bigrams:
+th: 2895
+he: 2043
+an: 1747
+er: 1478
+ou: 1377
+in: 1241
+ha: 1199
+re: 1191
+nd: 1164
+or: 1137
+
+Top 10 Trigrams:
+the: 1420
+and: 762
+you: 682
+her: 500
+tha: 452
+hat: 444
+eth: 420
+ing: 389
+for: 378
+thi: 335
+
+	- hamlet.txt
+
+sharanravula@Sharans-MacBook-Pro Cryptanalysis % python3 freqAnalyze.py hamlet.txt          
+Letters:
+e: 15673
+t: 12488
+o: 11478
+a: 10288
+i: 8885
+h: 8702
+n: 8692
+s: 8667
+r: 7940
+l: 6371
+d: 5135
+u: 4461
+m: 4280
+y: 3210
+w: 3128
+c: 2798
+f: 2736
+g: 2427
+p: 2015
+b: 1823
+k: 1271
+v: 1232
+q: 219
+x: 174
+z: 125
+j: 111
+
+Top 10 Bigrams:
+th: 4300
+he: 2995
+er: 2089
+an: 2037
+ha: 2022
+ou: 1980
+in: 1965
+st: 1682
+en: 1668
+nd: 1652
+
+Top 10 Trigrams:
+the: 2036
+and: 1172
+you: 866
+hat: 706
+her: 700
+ing: 694
+tha: 683
+let: 628
+his: 618
+thi: 603
+
+	- cipher.txt
+
+sharanravula@Sharans-MacBook-Pro Cryptanalysis % python3 freqAnalyze.py ciphertext.txt
+Letters:
+x: 161
+t: 126
+j: 123
+m: 114
+p: 107
+c: 96
+r: 87
+b: 83
+n: 68
+v: 64
+g: 49
+w: 38
+y: 30
+a: 29
+l: 27
+i: 26
+u: 25
+h: 23
+f: 18
+e: 15
+q: 12
+d: 6
+o: 6
+k: 3
+s: 1
+z: 1
+
+Top 10 Bigrams:
+jp: 68
+px: 52
+bt: 43
+mt: 42
+tn: 29
+tw: 26
+xv: 25
+tj: 22
+pm: 19
+ci: 18
+
+Top 10 Trigrams:
+jpx: 50
+mtn: 26
+btw: 23
+hbt: 15
+btj: 12
+pxh: 12
+xhb: 12
+tjp: 10
+cij: 10
+ijp: 10
+
+
+
+
+    
