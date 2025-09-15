@@ -1,0 +1,37 @@
+PA3-Group19
+
+1. Name and linkblue ID of each member in your group.
+
+	Name (Linkblue ID)
+
+	Sharan Ravula (sra361)
+	Ivan Garcia (iaga224)
+	Tucker Baum (taba259)
+
+2. A brief statement on the contribution of each group member in finishing the assignment.
+
+	We have two versions of the code. I (Sharan Ravula), used python to complete this assignment as I was having trouble with c++, and my other team members used c++.
+	
+	a. Sharan Ravula (python) :
+
+		Implemented the Python version of the cryptanalysis solution.
+		Conducted frequency analysis on the reference text to identify letter frequencies.
+		Developed the mapping algorithm to map encrypted characters to plaintext characters.
+		Deciphered the encrypted text using the finalized mappings and linguistic knowledge.
+		Compiled the documentation detailing the solution design, implementation steps, and execution instructions.
+
+	b. Ivan Garcia (C++):
+		
+		Implemented the C++ version of the cryptanalysis solution.
+		Conducted frequency analysis on the reference text using C++ data structures and algorithms.
+		Assisted in refining the mapping algorithm based on frequency analysis results.
+		Tested the C++ program and provided feedback on optimizations and improvements.
+
+	c. Tucker Baum (C++):
+	
+		Collaborated on the development of the C++ version of the cryptanalysis solution.
+		Assisted in designing the frequency analysis algorithm and data structures.
+		Contributed to the testing and debugging of the C++ program.
+		Reviewed the implementation and provided suggestions for code optimization and efficiency.
+
+	
